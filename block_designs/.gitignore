@@ -1,0 +1,6 @@
+*/ip/*
+*/hdl/*
+*/hw_handoff/*
+*.bmm
+*.bxml
+*_ooc.xdc
