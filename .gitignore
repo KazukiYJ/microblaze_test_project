@@ -99,3 +99,6 @@
 *.ip_user_files/
 /ipcores/*/*
 !/ipcores/*/*.xci
+.metadata/
+.sdk/
+webtalk/

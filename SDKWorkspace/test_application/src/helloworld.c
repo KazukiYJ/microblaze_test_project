@@ -55,14 +55,13 @@ int main()
   init_platform();
 
   int i = 0;
-  for(i=0; i<1000000000; i++){
+  for(i=0; i<1000; i++){
+    int j = 0;
+    for(j=0; j<10000000; j++){}
+    print("\n\r");
+    print("-----------\n\r");
     print("Hello World\n\r");
-    print("Hello World\n\r");
-    print("Hello World\n\r");
-    print("Hello World\n\r");
-    print("Hello World\n\r");
-    print("Hello World\n\r");
-    print("Hello World\n\r");
+    print("-----------\n\r");
   }
 
   cleanup_platform();
